@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "text": "Aezakmi",
+      "day": "Sunday Night",
+      "reminder": false,
+      "id": 1
+    },
+    {
+      "text": "Dinheiro",
+      "day": "Tomorrow Morning",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Drink Water ",
+      "day": "All day",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}
