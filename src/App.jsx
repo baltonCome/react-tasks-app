@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { render } from 'react-dom'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Tasks from './components/Tasks';
@@ -82,7 +81,6 @@ const App = () => {
   return (
     
     <Router>
-      <Routes>
         <div className="container">
           <Header onAdd ={ () => setShowAddTask(!showAddTask)} showAdd={showAddTask}/>  
          
@@ -98,7 +96,6 @@ const App = () => {
          
           <Footer />
         </div>
-      </Routes>
     </Router>
   )
 }
